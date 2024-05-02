@@ -1,0 +1,103 @@
+.bennar{
+    padding-block: 50px;
+}
+.bennar__flex-wrap{
+    margin: 0 -14px;
+    flex-wrap: wrap;
+    justify-content: flex-end !important;
+}
+.bennar__inner-wrap{
+    max-width: 33.33%;
+    flex: 33.33%;
+    padding: 0 14px;
+}
+.bennar__image{
+    position: relative;
+    margin-bottom: 32px;
+}
+.bennar__card{
+    position: absolute;
+    top: -22px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #222;
+    justify-content: center;
+    align-items: center;
+}
+.bennar__forward-icon{
+    max-width: 15px;
+    flex: 15px;
+    fill: #fff;
+}
+.bennar__pre-title{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 32px;
+}
+.bennar__text{
+    font-size: 11px;
+    letter-spacing: 2px;
+    opacity: 1;
+    color: #bbb;
+    text-align: center;
+    display: block;
+    margin-top: 6px;
+}
+.bennar__menu-list{
+    margin-bottom: 40px;
+}
+.bennar__menu-link{
+    padding: 5px 12px;
+    transition: all 0.2s ease-in-out;
+    font-size: 12px ;
+    font-weight: bold;
+    color: #222222;
+    opacity: .25;
+    text-transform: uppercase;
+}
+.bennar__menu-link:hover{
+    opacity: .5;
+}
+.bennar .active{
+    border: 2px solid #333;
+    opacity: 1;
+}
+/* ------------------------------------media-quary-start---------------------------- */
+/* --------------------------------------bennar-------------------------------------- */
+@media screen and (max-width:990px){
+    .bennar__inner-wrap {
+        max-width: 50%;
+        flex: 50%;
+        padding: 0 14px;
+    }
+    .bennar__pre-title {
+        font-size: 18px;
+        margin-top: 23px;
+    }
+    .bennar__text{
+        margin-bottom: unset;
+    }
+}
+@media screen and (max-width:767px){
+    .bennar {
+        padding-block: 30px;
+    }
+    .bennar__menu-list {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+
+    }
+    .bennar__menu-item {
+        margin-bottom: 10px;
+    }
+    .bennar__inner-wrap {
+        max-width: 100%;
+        flex: 100%;
+        padding: 0 14px;
+    }
+}
+/* ------------------------------------media-quary-end---------------------------- */

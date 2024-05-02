@@ -1,0 +1,147 @@
+/* ----------------------bennar-start------------------- */
+.bennar{
+    padding: 50px 0;
+}
+.bennar__content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.bennar__title{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom:35px;
+}
+.bennar__btn{
+    color: #2a2a2a;
+    padding-block: 17px;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    max-width: 152px;
+    margin: 0 auto;
+    border: 2px solid;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 100px;
+}
+.bennar__btn:hover{
+    color: #fff;
+    background-color: #2a2a2a;
+}
+.banner__pre-title{
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 155px;
+    margin: 0 auto 40px;
+    box-shadow: inset 0 -7px 0 #FFFC7F;
+}
+
+.bennar__text-wrap{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.bennar__logo-wrap{
+    align-items: flex-start;
+    max-width: 430px;
+    margin: 0 auto;
+}
+.bennar__flex-wrap{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.bennar__inner-wrap{
+    padding-inline: 15px;
+    max-width: 50%;
+    flex: 50%;
+    margin-bottom: 20px;
+}
+.bennar__logo{
+    max-width: 52px;
+}
+.benner-sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.benner-paragraph{
+    font-size: 18px;
+    color: #222222;
+    line-height: 1.5;
+}
+.bennar-last-child{
+    max-width: 104px;
+    margin-bottom: 20px;
+}
+.bennar-logo-wraps{
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.bennar_inner-logo-wrap{
+    padding: 0 15px;
+    max-width: 25%;
+    flex: 25%;
+    margin-bottom: 26px;
+}
+.bennar__company_logo{
+    max-width: 52px;
+    margin: 0 auto 15px;
+}
+.bennar-text{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    opacity: 3;
+    font-size: 12px;
+    color: gainsboro;
+}
+/* ----------------------bennar-end------------------- */
+@media screen and (max-width:990px){
+/* ------------------------bennar----------------- */
+    .bennar__title {
+        margin-bottom: 35px;
+    }
+    .bennar__btn {
+        margin-bottom: 60px;
+    }
+    .benner-paragraph {
+        text-align: center;
+        font-size: 13px;
+        color: #222222;
+        line-height: 1.5;
+    } 
+    .bennar__inner-wrap {
+        max-width: 100%;
+        flex: 100%;
+        margin-bottom: 20px;
+    }
+    .bennar__flex-wrap {
+        margin-bottom: 30px;
+    }
+    .bennar__logo-wrap {
+        max-width: unset;
+    }
+   
+}
+@media screen and (max-width:767px){
+    /* ------------------------bennar----------------- */
+    .bennar_inner-logo-wrap{
+        padding: 0 15px;
+        max-width: 50%;
+        flex: 50%;
+    }
+    .bennar__title {
+        font-size: 26px;
+    }
+    .benner-sub-title {
+        font-size: 13px;
+    }
+    }
+
+
+

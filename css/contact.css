@@ -1,0 +1,111 @@
+.bennar {
+    padding-block:50px ;
+}
+.bennar__content{
+    max-width: 600px;
+    margin: 0 auto 100px;
+}
+.bennar__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.bennar__input-flex-wrap{
+    margin: 0 -16px 40px;
+}
+.bennar__wrap{
+    max-width: 50%;
+    flex: 50%;
+    padding: 0 16px;
+}
+.bennar__text {
+    color: #222222;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    display: block;
+}
+.input-style {
+    outline: none;
+    padding: 16px;
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    border: 2px solid rgba(0, 0, 0, 0.07);
+    background-color: transparent;
+}
+.bennar__text{
+    color: #222222;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    display: block;
+}
+.bennar__textarea{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.07);
+    padding: 13px;
+    margin-bottom: 21px;
+}
+.bennar_sum-user{
+    outline: none;
+    padding: 13px;
+    width: 100%;
+    display: block;
+    font-size: 13px;
+    border: 2px solid rgba(0, 0, 0, 0.07);
+    background-color: transparent;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.bennar_sum-user::placeholder{
+    font-size: 13px;
+    color: gray;
+}
+.bennar_btn{
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: 12px;
+    border: 2px solid #333;
+    color: #333;
+    font-weight: 400;
+    display: block;
+    max-width: 99px;
+    padding: 14px 0;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+.bennar_btn:hover{
+    color: #fff;
+    background-color: #333;
+    border-color: transparent;
+}
+/* --------------------------------------bennar-------------------------------------- */
+@media screen and (max-width:990px){
+    .bennar__title {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .bennar {
+        padding-block: 30px;
+    }
+    .bennar__input-flex-wrap {
+        margin:unset;
+        flex-wrap: wrap;
+    }
+    .bennar__wrap {
+        max-width: 100%;
+        flex: 100%;
+        padding: unset;
+        margin-bottom: 15px;
+    }
+    .bennar__title {
+        font-size: 18px;
+    }
+}
