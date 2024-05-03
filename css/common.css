@@ -238,7 +238,7 @@ a{
     }
     .header__dropdown{
         padding: 50px 50px 35px 50px;
-        display: block;
+        display: none;
     }
     .header__dropdown .header__menu-link{
         font-size: 16px;
@@ -293,7 +293,7 @@ a{
     }
     .header__dropdown{
         padding: 50px 20px 35px 20px;
-        display: block;
+        display: none;
     }
     /* ------------------------footer----------------- */
     .footer__content {
